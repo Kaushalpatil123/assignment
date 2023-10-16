@@ -1,6 +1,7 @@
 import { users } from "@/util/db";
 import { NextResponse } from "next/server";
 
+//1st function//
 export function GET() {
   const data = users;
   return NextResponse.json(data, { status: 200 });
@@ -21,6 +22,7 @@ export async function POST(request) {
   );
 }
 
+//2nd function//
 // export default function handler(req, res) {
 //   if (req.method === "GET") {
 //     res.status(200).json(users);
@@ -39,6 +41,7 @@ export async function POST(request) {
 //   }
 // }
 
+//3rd function//
 // export default function handler(req, res) {
 //   try {
 //     if (req.method === "GET") {
