@@ -6,13 +6,13 @@ const page = () => {
   return (
     <div>
       <div className={Ltstyle.loginpage}>
-        <h1 className={Ltstyle.loginheader}>Wellcome to our Hosting servise</h1>
+        <h1 className={Ltstyle.loginheader}>Create New Landing page</h1>
         <form action="/" className={Ltstyle.container} method="post">
           <div className={Ltstyle.container2}>
             <input
               className={Ltstyle.formcontrol}
-              name="Name"
-              placeholder="Full Name"
+              name="Title"
+              placeholder="Title"
               required
             />
           </div>
@@ -20,8 +20,8 @@ const page = () => {
           <div className={Ltstyle.container2}>
             <input
               className={Ltstyle.formcontrol}
-              name="Email"
-              placeholder="Email"
+              name="Description"
+              placeholder="Description"
               required
             />
           </div>
@@ -29,8 +29,34 @@ const page = () => {
           <div className={Ltstyle.container2}>
             <input
               className={Ltstyle.formcontrol}
-              name="Password"
-              placeholder="Password"
+              name="Header"
+              placeholder="Header"
+              required
+            />
+          </div>
+
+          <div className={Ltstyle.container2}>
+            <input
+              className={Ltstyle.formcontrol}
+              name="Footer"
+              placeholder="Footer"
+              required
+            />
+          </div>
+
+          <div className={Ltstyle.container2}>
+            <input
+              className={Ltstyle.formcontrol}
+              name="Text-Block"
+              placeholder="Text-Block"
+              required
+            />
+          </div>
+          <div className={Ltstyle.container2}>
+            <input
+              className={Ltstyle.formcontrol}
+              name="Image"
+              placeholder="Image-Link"
               required
             />
           </div>
